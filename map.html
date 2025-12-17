@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokasyon | Harita</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.15.1/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="projects.html">Projeler/Sertifikalar</a></li>
+                <li><a href="experience.html">İş Deneyimleri</a></li>
+                <li><a href="education.html">Eğitim</a></li>
+                <li><a href="map.html">Lokasyon</a></li>
+                <li><a href="about.html">Hakkımda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main class="full-page-map">
+    <div id="map" class="map"></div>
+    <h1 class="map-overlay-title animate-text">Stantec</h1>
+</main>
+
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.15.1/build/ol.js"></script>
+    <script>
+        var map = new ol.Map({
+            target: 'map',
+            layers: [new ol.layer.Tile({ source: new ol.source.OSM() })],
+            view: new ol.View({
+                center: ol.proj.fromLonLat([32.81166494233024, 39.8908578943668]),
+                zoom: 16
+            })
+        });
+    </script>
+</body>
+</html>
