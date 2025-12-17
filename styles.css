@@ -370,32 +370,3 @@ h2 {
 
 
 
-
-
-
-
-/* Harita */
-.full-page-map {
-    position: relative;
-    height: calc(100vh - 60px);
-    width: 100%;
-}
-
-.map {
-    height: 100%;
-    width: 100%;
-}
-
-.map-overlay-title {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-size: 1.2rem;
-    pointer-events: none;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-}
