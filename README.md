@@ -7,9 +7,9 @@ GMK 654 - Assignment 1
 
 CSS Animasyonları: Sitemin daha modern görünmesi için keyframes kullanarak başlıkların sayfa açıldığında yukarıdan aşağıya yavaşça inmesini sağlayan animasyonlar ekledim. Ayrıca butonlar üzerine gelindiğinde eski boyuta göre büyüme efekti uyguladım.
 
-Tablo ve Görsel Kullanımı: Projeler ve sertifikalar sayfasında, üzerinde çalıştığım teknolojileri ve örnekleri görsellerle destekleyerek düzenli bir tablo içerisinde sundum.
+Tablo ve Görsel Kullanımı: Projeler ve sertifikalar sayfasında, üzerinde çalıştığım teknolojileri ve detaylarını düzenli bir tablo içerisinde ekledim.
 
-OpenLayers Entegrasyonu: Sitenin Lokasyon kısmında OpenLayers (OL) kütüphanesini kullanarak tam ekran interaktif bir dünya haritası ekledim.
+OpenLayers Entegrasyonu: Sitenin Lokasyon kısmında OpenLayers (OL) kütüphanesini kullanarak tam ekran interaktif bir dünya haritası ekledim. Zoom ve enlem/boylam bilgilerini kullanarak ofisimin lokasyonunu daha yakın gösterecek şekilde ayarladım.
 
 İletişim Altyapısı: Sosyal medya butonları ve kendimi anlatan bir yazı ekledim. Ayrıca fotoğraf da kullandım.
 
